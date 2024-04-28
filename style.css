@@ -1,0 +1,29 @@
+.styled_state {
+    color: rgb(252, 59, 91);
+    font-size: 64px;
+    font-style: normal;
+    transition: ease-in-out 3s;
+    font-family: Verdana;
+    font-weight: bold;
+    transform: rotate(-360deg);
+    /* transform: translate(0px, 50px); */
+}
+
+.normal_state {
+    color: blue;
+    font-size: 16px;
+    font-style: normal;
+    transition: ease-in-out 3s;
+    transform: rotate(0deg);
+    /* transform: translate(0px, 0px); */
+}
+
+.button {
+    padding: 15px;
+    background-color: aqua;
+}
+
+.button_effect {
+    box-shadow: 10px 10px 5px 0px rgba(45, 211, 172, 0.75)
+}
+
